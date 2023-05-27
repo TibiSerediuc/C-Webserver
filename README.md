@@ -13,6 +13,7 @@ Run the following command to install `gcc` and `make`:
 ```bash
 sudo apt update
 sudo apt install build-essential
+```
 
 ### Installation on Windows
 
