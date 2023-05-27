@@ -1,0 +1,4 @@
+# .gitignore
+
+# Ignore VS Code configuration directory
+.vscode/
