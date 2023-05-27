@@ -32,3 +32,34 @@ For Windows, you can install `gcc` and `make` by following these steps:
    - Click on the "New" button and enter the path to your MinGW `bin` directory (e.g., `C:\MinGW\bin`).
    - Click "OK" to save the changes.
    - Close any open command prompt windows and reopen them for the changes to take effect.
+
+## Building and Running the Project
+To build and run this project, follow these steps:
+
+1. Open a terminal or command prompt.
+
+2. Navigate to the project's root directory.
+
+3. Run the following **'make'** commands:
+
+- **'make all'** or simply **'make'**: Builds the project.
+- **'make run'**: Runs the executable file created by **'make all'**.
+- **'make clean'**: Deletes the executable and all intermediate files.
+For example, to build and run the project, you can use:
+```
+make
+make run
+```
+
+And to clean up when you're done, use:
+```
+make clean
+```
+
+Make sure to execute these commands in the project's root directory, where the Makefile is located.
+
+4. After running the web server, you can access it in a web browser by navigating to either **'localhost:8080'** or **'127.0.0.1:8080'**. These addresses refer to the local machine and the port number 8080, which is the default port for the web server.
+
+For example, enter **'http://localhost:8080'** or **'http://127.0.0.1:8080'** in your web browser's address bar.
+
+You should see the response from the web server displayed in the browser.
